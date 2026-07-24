@@ -29,6 +29,49 @@ The project is intended exclusively for defensive cybersecurity training.
 * CSS3
 * JavaScript
 
+## How to Run
+
+### Prerequisites
+
+* A modern web browser (Google Chrome, Microsoft Edge, or Firefox)
+* Visual Studio Code (recommended)
+
+### Steps
+
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open the `index.html` file.
+4. Right-click the file and select **Open with Live Server** (or open it directly in your browser).
+5. The demonstration login page will load in your browser.
+6. Enter dummy values in the username/email and password fields.
+7. Click Login or Sign In.
+8. The demonstration displays a simulated error message indicating that something went wrong.
+9. The demo then redirects the user to the legitimate service's homepage to illustrate how users should verify they are on the official website after encountering suspicious login behavior.
+
+## Demonstration Workflow
+
+```text
+Start
+   │
+   ▼
+Open Demo Login Page
+   │
+   ▼
+Enter Dummy Credentials
+   │
+   ▼
+Click Login
+   │
+   ▼
+Display Simulated Error Message
+   │
+   ▼
+Redirect to Legitimate Website
+   │
+   ▼
+End
+```
+
 ## Learning Outcomes
 
 After completing this project, I can :
